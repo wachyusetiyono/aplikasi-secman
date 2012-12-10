@@ -1,0 +1,27 @@
+# Membuat Repository #
+
+1. Membuat Folder Kosong
+
+2. Inisialisasi repository local
+   git init
+
+3. Membuat ignore file (.gitignore)
+
+4. Setup username dan email
+
+   git config --global user.email "w_ach_u@yahoo.com"
+
+   git config --global user.name "Wachyu Setiyono"
+
+5. Commit (save) ke repository local
+
+  git add .
+  git commit -m "commit pertama"
+
+6. Mendaftarkan repository remote
+   git remote add origin https://github.com/wachyusetiyono/aplikasi-secman.git
+
+7. Upload Repository local ke repository remote
+git push -u origin master
+
+8. gil clone <url>
